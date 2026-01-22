@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
+
+/* html, body {
+  overflow-x: clip;
+} */
+
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --roboto: "Roboto", sans-serif;
+    --open-sans: "Open Sans", sans-serif;
+    --brico: "Bricolage Grotesque",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--brico);
+    background-color: white;
+}
+
+.menu_link a{
+  @apply text-[18px] text-blue-500 opacity-60 no-underline font-semibold btn btn-link hover:opacity-100;
+}
+
+.menu_link_phone a{
+    @apply text-lg font-semibold text-blue-950;
+}
+
+.sect-h1{
+  @apply text-2xl/tight md:text-4xl font-bold uppercase text-black text-center;
+}
+
+.sect-p{
+  @apply text-xl text-gray-900 font-semibold text-center;
+}
+
+.hero-custumers{
+  @apply flex justify-between w-full md:w-auto md:gap-5 text-start bg-base-200 md:bg-white mb-3 p-5 md:p-0;
+}
+
+.hero-custumers img{
+  @apply w-24 h-20 object-contain;
+}
+
+.hero-custumers-info{
+  @apply flex flex-col w-1/2;
+}
+
+.hero-custumers-number{
+  @apply font-(--roboto) text-[40px] font-bold text-gray-800;
+}
+
+.hero-custumers-description{
+  @apply font-(--roboto) text-[14px] font-medium text-gray-800;
+}
+
+[data-aos].aos-animate .progress-circle {
+  stroke-dashoffset: var(--progress);
+}
+
+[data-aos].aos-animate .percent {
+  width: var(--complete);
+}
