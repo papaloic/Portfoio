@@ -32,7 +32,18 @@ const home = () => {
                 </div>
             </div>
             <div data-aos="fade-left" className="intro-picture w-full h-full flex justify-center items-center pt-8 md:pt-0 md:w-1/2">
-                <div className="img_container w-80 h-80 md:w-100 md:h-100 border-8 border-blue-500 rounded-full] bg-cover bg-center" style={{borderRadius : "30% 70% 70% 30% / 30% 30% 70% 70%", backgroundImage: `url(${me})`}}>
+                <div className="hover-3d">
+                {/* content */}
+                <figure className="max-w-100 rounded-2xl img_container w-80 h-80 md:w-100 md:h-100 border-8 border-blue-500 rounded-full] bg-cover bg-center" style={{borderRadius : "30% 70% 70% 30% / 30% 30% 70% 70%", backgroundImage: `url(${me})`}}></figure>
+                {/* 8 empty divs needed for the 3D effect */}
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
                 </div>
             </div>
         </section>

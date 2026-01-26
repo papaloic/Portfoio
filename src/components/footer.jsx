@@ -21,10 +21,10 @@ const footer = () => {
     </nav>
     <nav>
         <div className="grid grid-flow-col gap-4">
-        <a href="">
+        <a href="https://github.com/papaloic/">
             <Github />
         </a>
-        <a href="">
+        <a href="https://fr.linkedin.com/in/lo%C3%AFc-ngueuchu%C3%A9-9755573a3">
             <Linkedin />
         </a>
         <a href="">
