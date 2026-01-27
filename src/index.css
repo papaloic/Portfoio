@@ -59,7 +59,7 @@ body{
 }
 
 .hero-custumers-description{
-  @apply font-(--roboto) text-[14px] font-medium text-gray-800;
+  @apply font-(--roboto) text-[16px] font-medium text-gray-800;
 }
 
 [data-aos].aos-animate .progress-circle {

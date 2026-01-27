@@ -27,7 +27,7 @@ const footer = () => {
         <a href="https://fr.linkedin.com/in/lo%C3%AFc-ngueuchu%C3%A9-9755573a3">
             <Linkedin />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/loic.bieleu?igsh=MTJlNDQ3Y2pmNHN5bw==">
             <Instagram />
         </a>
         </div>
