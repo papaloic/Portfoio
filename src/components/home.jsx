@@ -1,5 +1,5 @@
 import img from '/assets/le-telephone-sonne.png';
-import me from '/assets/me.jpeg';
+import me from '/assets/Loic2.jpeg';
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
